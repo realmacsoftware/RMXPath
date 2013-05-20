@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<a:catalog xmlns:a="http://realmacsoftware.com/namespaces/dts/book.xml">
+	<a:book>
+		<a:title>Training for Climbing, 2nd Ed: The Definitive Guide to Improving Your Performance</a:title>
+		<a:id>urn:isbn:978-0762723133</a:id>
+		<a:authors>
+			<a:author>Eric J. H&#x00f6;rst</a:author>
+		</a:authors>
+	</a:book>
+	<a:book>
+		<a:title>Conditioning for Climbers: The Complete Exercise Guide (How to Climb)</a:title>
+		<a:id>urn:isbn:978-0762742288</a:id>
+		<a:authors>
+			<a:author>Eric J. H&#x00f6;rst</a:author>
+		</a:authors>
+	</a:book>
+	<a:book>
+		<a:title>Self-Coached Climber: The Guide to Movement, Training, Performance</a:title>
+		<a:id>urn:isbn:978-0811733397</a:id>
+		<a:authors>
+			<a:author>Dan Hague</a:author>
+			<a:author>Douglas Hunter</a:author>
+		</a:authors>
+	</a:book>
+</a:catalog>

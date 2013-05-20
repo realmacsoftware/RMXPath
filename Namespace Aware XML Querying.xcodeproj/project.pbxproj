@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53245D26174B6170006BC553 /* RMXPath-TestsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 53245D25174B6170006BC553 /* RMXPath-TestsConstants.m */; };
+		53245D4E174B61C5006BC553 /* sample+ns.xml in Resources */ = {isa = PBXBuildFile; fileRef = 53245D4D174B61C5006BC553 /* sample+ns.xml */; };
+		536FCC02174A89D200717AE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FCC01174A89D200717AE8 /* Cocoa.framework */; };
+		536FCC0E174A89D200717AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC0D174A89D200717AE8 /* main.m */; };
+		536FCC21174A89F400717AE8 /* Catalog+ns.xml in Resources */ = {isa = PBXBuildFile; fileRef = 536FCC1E174A89F400717AE8 /* Catalog+ns.xml */; };
+		536FCC22174A89F400717AE8 /* Catalog+ns+prefix.xml in Resources */ = {isa = PBXBuildFile; fileRef = 536FCC1F174A89F400717AE8 /* Catalog+ns+prefix.xml */; };
+		536FCC23174A89F400717AE8 /* Catalog+ns+prefix2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 536FCC20174A89F400717AE8 /* Catalog+ns+prefix2.xml */; };
+		536FCC51174A8A7700717AE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FCC01174A89D200717AE8 /* Cocoa.framework */; };
+		536FCC57174A8A7700717AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 536FCC55174A8A7700717AE8 /* InfoPlist.strings */; };
+		536FCC61174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 536FCC5F174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.h */; };
+		536FCC62174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC60174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.m */; };
+		536FCC69174A8A9800717AE8 /* RMXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 536FCC63174A8A9800717AE8 /* RMXPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536FCC6A174A8A9800717AE8 /* RMXPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC64174A8A9800717AE8 /* RMXPath.m */; };
+		536FCC6B174A8A9800717AE8 /* _RMXPathToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 536FCC65174A8A9800717AE8 /* _RMXPathToken.h */; };
+		536FCC6C174A8A9800717AE8 /* _RMXPathToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC66174A8A9800717AE8 /* _RMXPathToken.m */; };
+		536FCC6D174A8A9800717AE8 /* _RMXPathScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 536FCC67174A8A9800717AE8 /* _RMXPathScanner.h */; };
+		536FCC6E174A8A9800717AE8 /* _RMXPathScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC68174A8A9800717AE8 /* _RMXPathScanner.m */; };
+		536FCC76174A8AD900717AE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FCC75174A8AD900717AE8 /* SenTestingKit.framework */; };
+		536FCC77174A8AD900717AE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FCC01174A89D200717AE8 /* Cocoa.framework */; };
+		536FCC7D174A8AD900717AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 536FCC7B174A8AD900717AE8 /* InfoPlist.strings */; };
+		536FCC8D174A8B0400717AE8 /* RMXPath-TestPreprocess.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC86174A8B0400717AE8 /* RMXPath-TestPreprocess.m */; };
+		536FCC8E174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC88174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.m */; };
+		536FCC8F174A8B0400717AE8 /* RMXPath-TestTokeniseFull.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC8A174A8B0400717AE8 /* RMXPath-TestTokeniseFull.m */; };
+		536FCC90174A8B0400717AE8 /* RMXPath-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC8C174A8B0400717AE8 /* RMXPath-Tests.m */; };
+		536FCC93174A8B8B00717AE8 /* RMXPath-Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 536FCC91174A8B8B00717AE8 /* RMXPath-Macros.h */; };
+		536FCC94174A8B8B00717AE8 /* RMXPath-Macros.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC92174A8B8B00717AE8 /* RMXPath-Macros.m */; };
+		536FCC97174A8BBF00717AE8 /* RMXPath-Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 536FCC95174A8BBF00717AE8 /* RMXPath-Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536FCC98174A8BBF00717AE8 /* RMXPath-Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 536FCC96174A8BBF00717AE8 /* RMXPath-Constants.m */; };
+		536FCC9B174A8C4400717AE8 /* RMXPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FCC50174A8A7700717AE8 /* RMXPath.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536FCC99174A8C3F00717AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536FCBF6174A89D200717AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536FCC4F174A8A7700717AE8;
+			remoteInfo = "XPath Tokeniser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53245D24174B6170006BC553 /* RMXPath-TestsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-TestsConstants.h"; sourceTree = "<group>"; };
+		53245D25174B6170006BC553 /* RMXPath-TestsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-TestsConstants.m"; sourceTree = "<group>"; };
+		53245D4D174B61C5006BC553 /* sample+ns.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sample+ns.xml"; sourceTree = "<group>"; };
+		536FCBFE174A89D200717AE8 /* Namespace Aware XML Querying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Namespace Aware XML Querying.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536FCC01174A89D200717AE8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		536FCC04174A89D200717AE8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		536FCC05174A89D200717AE8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		536FCC06174A89D200717AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		536FCC09174A89D200717AE8 /* Namespace Aware XML Querying-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Namespace Aware XML Querying-Info.plist"; sourceTree = "<group>"; };
+		536FCC0D174A89D200717AE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		536FCC1E174A89F400717AE8 /* Catalog+ns.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Catalog+ns.xml"; sourceTree = "<group>"; };
+		536FCC1F174A89F400717AE8 /* Catalog+ns+prefix.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Catalog+ns+prefix.xml"; sourceTree = "<group>"; };
+		536FCC20174A89F400717AE8 /* Catalog+ns+prefix2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Catalog+ns+prefix2.xml"; sourceTree = "<group>"; };
+		536FCC50174A8A7700717AE8 /* RMXPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMXPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536FCC54174A8A7700717AE8 /* XPath Tokeniser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XPath Tokeniser-Info.plist"; sourceTree = "<group>"; };
+		536FCC56174A8A7700717AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		536FCC5F174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RMUnicodeAdditions.h"; sourceTree = "<group>"; };
+		536FCC60174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RMUnicodeAdditions.m"; sourceTree = "<group>"; };
+		536FCC63174A8A9800717AE8 /* RMXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMXPath.h; sourceTree = "<group>"; };
+		536FCC64174A8A9800717AE8 /* RMXPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMXPath.m; sourceTree = "<group>"; };
+		536FCC65174A8A9800717AE8 /* _RMXPathToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RMXPathToken.h; sourceTree = "<group>"; };
+		536FCC66174A8A9800717AE8 /* _RMXPathToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RMXPathToken.m; sourceTree = "<group>"; };
+		536FCC67174A8A9800717AE8 /* _RMXPathScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RMXPathScanner.h; sourceTree = "<group>"; };
+		536FCC68174A8A9800717AE8 /* _RMXPathScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RMXPathScanner.m; sourceTree = "<group>"; };
+		536FCC74174A8AD900717AE8 /* XPath Tokeniser Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XPath Tokeniser Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536FCC75174A8AD900717AE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		536FCC7A174A8AD900717AE8 /* XPath Tokeniser Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XPath Tokeniser Tests-Info.plist"; sourceTree = "<group>"; };
+		536FCC7C174A8AD900717AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		536FCC85174A8B0400717AE8 /* RMXPath-TestPreprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-TestPreprocess.h"; sourceTree = "<group>"; };
+		536FCC86174A8B0400717AE8 /* RMXPath-TestPreprocess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-TestPreprocess.m"; sourceTree = "<group>"; };
+		536FCC87174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-TestTokeniseExcerpts.h"; sourceTree = "<group>"; };
+		536FCC88174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-TestTokeniseExcerpts.m"; sourceTree = "<group>"; };
+		536FCC89174A8B0400717AE8 /* RMXPath-TestTokeniseFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-TestTokeniseFull.h"; sourceTree = "<group>"; };
+		536FCC8A174A8B0400717AE8 /* RMXPath-TestTokeniseFull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-TestTokeniseFull.m"; sourceTree = "<group>"; };
+		536FCC8B174A8B0400717AE8 /* RMXPath-Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-Tests.h"; sourceTree = "<group>"; };
+		536FCC8C174A8B0400717AE8 /* RMXPath-Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-Tests.m"; sourceTree = "<group>"; };
+		536FCC91174A8B8B00717AE8 /* RMXPath-Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-Macros.h"; sourceTree = "<group>"; };
+		536FCC92174A8B8B00717AE8 /* RMXPath-Macros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-Macros.m"; sourceTree = "<group>"; };
+		536FCC95174A8BBF00717AE8 /* RMXPath-Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMXPath-Constants.h"; sourceTree = "<group>"; };
+		536FCC96174A8BBF00717AE8 /* RMXPath-Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMXPath-Constants.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536FCBFB174A89D200717AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC02174A89D200717AE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536FCC4C174A8A7700717AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC51174A8A7700717AE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536FCC70174A8AD900717AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC9B174A8C4400717AE8 /* RMXPath.framework in Frameworks */,
+				536FCC76174A8AD900717AE8 /* SenTestingKit.framework in Frameworks */,
+				536FCC77174A8AD900717AE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536FCBF5174A89D200717AE8 = {
+			isa = PBXGroup;
+			children = (
+				536FCC07174A89D200717AE8 /* Namespace Aware XML Querying */,
+				536FCC52174A8A7700717AE8 /* XPath */,
+				536FCC78174A8AD900717AE8 /* XPath Tokeniser Tests */,
+				536FCC00174A89D200717AE8 /* Frameworks */,
+				536FCBFF174A89D200717AE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536FCBFF174A89D200717AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536FCBFE174A89D200717AE8 /* Namespace Aware XML Querying.app */,
+				536FCC50174A8A7700717AE8 /* RMXPath.framework */,
+				536FCC74174A8AD900717AE8 /* XPath Tokeniser Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536FCC00174A89D200717AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC01174A89D200717AE8 /* Cocoa.framework */,
+				536FCC75174A8AD900717AE8 /* SenTestingKit.framework */,
+				536FCC03174A89D200717AE8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		536FCC03174A89D200717AE8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC04174A89D200717AE8 /* AppKit.framework */,
+				536FCC05174A89D200717AE8 /* CoreData.framework */,
+				536FCC06174A89D200717AE8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		536FCC07174A89D200717AE8 /* Namespace Aware XML Querying */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC0D174A89D200717AE8 /* main.m */,
+				536FCC09174A89D200717AE8 /* Namespace Aware XML Querying-Info.plist */,
+				536FCC1E174A89F400717AE8 /* Catalog+ns.xml */,
+				536FCC1F174A89F400717AE8 /* Catalog+ns+prefix.xml */,
+				536FCC20174A89F400717AE8 /* Catalog+ns+prefix2.xml */,
+			);
+			path = "Namespace Aware XML Querying";
+			sourceTree = "<group>";
+		};
+		536FCC52174A8A7700717AE8 /* XPath */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC63174A8A9800717AE8 /* RMXPath.h */,
+				536FCC64174A8A9800717AE8 /* RMXPath.m */,
+				536FCC65174A8A9800717AE8 /* _RMXPathToken.h */,
+				536FCC66174A8A9800717AE8 /* _RMXPathToken.m */,
+				536FCC67174A8A9800717AE8 /* _RMXPathScanner.h */,
+				536FCC68174A8A9800717AE8 /* _RMXPathScanner.m */,
+				536FCC5F174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.h */,
+				536FCC60174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.m */,
+				536FCC91174A8B8B00717AE8 /* RMXPath-Macros.h */,
+				536FCC92174A8B8B00717AE8 /* RMXPath-Macros.m */,
+				536FCC95174A8BBF00717AE8 /* RMXPath-Constants.h */,
+				536FCC96174A8BBF00717AE8 /* RMXPath-Constants.m */,
+				536FCC53174A8A7700717AE8 /* Supporting Files */,
+			);
+			name = XPath;
+			path = "XPath Tokeniser";
+			sourceTree = "<group>";
+		};
+		536FCC53174A8A7700717AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC54174A8A7700717AE8 /* XPath Tokeniser-Info.plist */,
+				536FCC55174A8A7700717AE8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		536FCC78174A8AD900717AE8 /* XPath Tokeniser Tests */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC8B174A8B0400717AE8 /* RMXPath-Tests.h */,
+				536FCC8C174A8B0400717AE8 /* RMXPath-Tests.m */,
+				536FCC85174A8B0400717AE8 /* RMXPath-TestPreprocess.h */,
+				536FCC86174A8B0400717AE8 /* RMXPath-TestPreprocess.m */,
+				536FCC89174A8B0400717AE8 /* RMXPath-TestTokeniseFull.h */,
+				536FCC8A174A8B0400717AE8 /* RMXPath-TestTokeniseFull.m */,
+				536FCC87174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.h */,
+				536FCC88174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.m */,
+				53245D24174B6170006BC553 /* RMXPath-TestsConstants.h */,
+				53245D25174B6170006BC553 /* RMXPath-TestsConstants.m */,
+				53245D4D174B61C5006BC553 /* sample+ns.xml */,
+				536FCC79174A8AD900717AE8 /* Supporting Files */,
+			);
+			path = "XPath Tokeniser Tests";
+			sourceTree = "<group>";
+		};
+		536FCC79174A8AD900717AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536FCC7A174A8AD900717AE8 /* XPath Tokeniser Tests-Info.plist */,
+				536FCC7B174A8AD900717AE8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		536FCC4D174A8A7700717AE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC69174A8A9800717AE8 /* RMXPath.h in Headers */,
+				536FCC97174A8BBF00717AE8 /* RMXPath-Constants.h in Headers */,
+				536FCC61174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.h in Headers */,
+				536FCC6B174A8A9800717AE8 /* _RMXPathToken.h in Headers */,
+				536FCC6D174A8A9800717AE8 /* _RMXPathScanner.h in Headers */,
+				536FCC93174A8B8B00717AE8 /* RMXPath-Macros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536FCBFD174A89D200717AE8 /* Namespace Aware XML Querying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536FCC1B174A89D200717AE8 /* Build configuration list for PBXNativeTarget "Namespace Aware XML Querying" */;
+			buildPhases = (
+				536FCBFA174A89D200717AE8 /* Sources */,
+				536FCBFB174A89D200717AE8 /* Frameworks */,
+				536FCBFC174A89D200717AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Namespace Aware XML Querying";
+			productName = "Namespace Aware XML Querying";
+			productReference = 536FCBFE174A89D200717AE8 /* Namespace Aware XML Querying.app */;
+			productType = "com.apple.product-type.application";
+		};
+		536FCC4F174A8A7700717AE8 /* XPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536FCC5C174A8A7700717AE8 /* Build configuration list for PBXNativeTarget "XPath" */;
+			buildPhases = (
+				536FCC4B174A8A7700717AE8 /* Sources */,
+				536FCC4C174A8A7700717AE8 /* Frameworks */,
+				536FCC4D174A8A7700717AE8 /* Headers */,
+				536FCC4E174A8A7700717AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPath;
+			productName = "XPath Tokeniser";
+			productReference = 536FCC50174A8A7700717AE8 /* RMXPath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		536FCC73174A8AD900717AE8 /* XPath Tokeniser Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536FCC82174A8AD900717AE8 /* Build configuration list for PBXNativeTarget "XPath Tokeniser Tests" */;
+			buildPhases = (
+				536FCC6F174A8AD900717AE8 /* Sources */,
+				536FCC70174A8AD900717AE8 /* Frameworks */,
+				536FCC71174A8AD900717AE8 /* Resources */,
+				536FCC72174A8AD900717AE8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536FCC9A174A8C3F00717AE8 /* PBXTargetDependency */,
+			);
+			name = "XPath Tokeniser Tests";
+			productName = "XPath Tokeniser Tests";
+			productReference = 536FCC74174A8AD900717AE8 /* XPath Tokeniser Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536FCBF6174A89D200717AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Realmac Software";
+			};
+			buildConfigurationList = 536FCBF9174A89D200717AE8 /* Build configuration list for PBXProject "Namespace Aware XML Querying" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 536FCBF5174A89D200717AE8;
+			productRefGroup = 536FCBFF174A89D200717AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536FCBFD174A89D200717AE8 /* Namespace Aware XML Querying */,
+				536FCC4F174A8A7700717AE8 /* XPath */,
+				536FCC73174A8AD900717AE8 /* XPath Tokeniser Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536FCBFC174A89D200717AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC21174A89F400717AE8 /* Catalog+ns.xml in Resources */,
+				536FCC22174A89F400717AE8 /* Catalog+ns+prefix.xml in Resources */,
+				536FCC23174A89F400717AE8 /* Catalog+ns+prefix2.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536FCC4E174A8A7700717AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC57174A8A7700717AE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536FCC71174A8AD900717AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC7D174A8AD900717AE8 /* InfoPlist.strings in Resources */,
+				53245D4E174B61C5006BC553 /* sample+ns.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		536FCC72174A8AD900717AE8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536FCBFA174A89D200717AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC0E174A89D200717AE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536FCC4B174A8A7700717AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC62174A8A8C00717AE8 /* NSString+RMUnicodeAdditions.m in Sources */,
+				536FCC6A174A8A9800717AE8 /* RMXPath.m in Sources */,
+				536FCC6C174A8A9800717AE8 /* _RMXPathToken.m in Sources */,
+				536FCC6E174A8A9800717AE8 /* _RMXPathScanner.m in Sources */,
+				536FCC94174A8B8B00717AE8 /* RMXPath-Macros.m in Sources */,
+				536FCC98174A8BBF00717AE8 /* RMXPath-Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536FCC6F174A8AD900717AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536FCC8D174A8B0400717AE8 /* RMXPath-TestPreprocess.m in Sources */,
+				536FCC8E174A8B0400717AE8 /* RMXPath-TestTokeniseExcerpts.m in Sources */,
+				536FCC8F174A8B0400717AE8 /* RMXPath-TestTokeniseFull.m in Sources */,
+				536FCC90174A8B0400717AE8 /* RMXPath-Tests.m in Sources */,
+				53245D26174B6170006BC553 /* RMXPath-TestsConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536FCC9A174A8C3F00717AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 536FCC4F174A8A7700717AE8 /* XPath */;
+			targetProxy = 536FCC99174A8C3F00717AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		536FCC55174A8A7700717AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536FCC56174A8A7700717AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		536FCC7B174A8AD900717AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536FCC7C174A8AD900717AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536FCC19174A89D200717AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		536FCC1A174A89D200717AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		536FCC1C174A89D200717AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Namespace Aware XML Querying/Namespace Aware XML Querying-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		536FCC1D174A89D200717AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Namespace Aware XML Querying/Namespace Aware XML Querying-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		536FCC5D174A8A7700717AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "XPath Tokeniser/XPath Tokeniser-Info.plist";
+				INSTALL_PATH = "@rpath/";
+				PRODUCT_NAME = RMXPath;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		536FCC5E174A8A7700717AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "XPath Tokeniser/XPath Tokeniser-Info.plist";
+				INSTALL_PATH = "@rpath/";
+				PRODUCT_NAME = RMXPath;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		536FCC83174A8AD900717AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"${CONFIGURATION_BUILD_DIR}\"",
+				);
+				INFOPLIST_FILE = "XPath Tokeniser Tests/XPath Tokeniser Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		536FCC84174A8AD900717AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"${CONFIGURATION_BUILD_DIR}\"",
+				);
+				INFOPLIST_FILE = "XPath Tokeniser Tests/XPath Tokeniser Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536FCBF9174A89D200717AE8 /* Build configuration list for PBXProject "Namespace Aware XML Querying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536FCC19174A89D200717AE8 /* Debug */,
+				536FCC1A174A89D200717AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536FCC1B174A89D200717AE8 /* Build configuration list for PBXNativeTarget "Namespace Aware XML Querying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536FCC1C174A89D200717AE8 /* Debug */,
+				536FCC1D174A89D200717AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536FCC5C174A8A7700717AE8 /* Build configuration list for PBXNativeTarget "XPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536FCC5D174A8A7700717AE8 /* Debug */,
+				536FCC5E174A8A7700717AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536FCC82174A8AD900717AE8 /* Build configuration list for PBXNativeTarget "XPath Tokeniser Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536FCC83174A8AD900717AE8 /* Debug */,
+				536FCC84174A8AD900717AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536FCBF6174A89D200717AE8 /* Project object */;
+}
